@@ -10,6 +10,6 @@ managedNodeGroups:
     instanceType: t2.micro
     desiredCapacity: 2
   - name: spot-ng-2
-    instanceType: ["t2.micro" , "t3.micro"]
+    instanceTypes: ["t2.micro" , "t3.micro"]
     spot: true
     desiredCapacity: 2
